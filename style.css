@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1400px;
+}
+
+
+
+#top-message-bar {
+    border: 1px solid black;
+    height: 40px;
+    background-color: hsla(83, 55%, 60%, 1);
+}
+
+#top-message {
+    text-align: center;
+}
+
+#top-area {
+    background-color: grey;
+    height: 600px;
+}
