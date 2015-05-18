@@ -1,24 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
 }
 .container {
-    max-width: 1400px;
+  max-width: 1400px;
 }
+
 
 
 
 #top-message-bar {
-    border: 1px solid black;
-    height: 40px;
-    background-color: hsla(83, 55%, 60%, 1);
-}
-
-#top-message {
-    text-align: center;
+  background-color: hsla(83, 55%, 60%, 1);
+  text-align: center;
+  color: white;
+  padding: 1px;
+  margin: 0 auto;
 }
 
 #top-area {
-    background-color: grey;
-    height: 600px;
+  background-color: grey;
+  height: 600px;
 }
+
+
