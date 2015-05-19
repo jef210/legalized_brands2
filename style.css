@@ -51,13 +51,13 @@ img {
 }
 
 ul {
-    margin-left: 0;
-    padding-left: 20px;
+  margin-left: 0;
+  padding-left: 20px;
 }
 
 ol {
-    margin-left: 0;
-    padding-left: 26px;
+  margin-left: 0;
+  padding-left: 26px;
 }
 
 a { 
@@ -92,95 +92,102 @@ a:focus {
   text-align: center
 }
 .container {
-    padding: 0px;
-    margin: 0 auto;
-    width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /*  ################################################################
   BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .top-message-bar {
-    background-color: hsla(83, 56%, 59%, 1);
-    height: auto;
-    width: 100%;
-    text-align: center;
-    color: white;
-    padding: 1px;
-    /*position: fixed;*/
-    /*z-index: 1;*/
+  background-color: hsla(83, 56%, 59%, 1);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 1px;
+  /*position: fixed;*/
+  /*z-index: 1;*/
 
 }
 .top-message-bar.affix-top {
-    position: relative;
+  position: relative;
 }
 .top-area {
-    background-color: grey;
-    min-height: 550px;
-    margin-top: 40px;
+  background-color: grey;
+  min-height: 550px;
+  margin-top: 40px;
 }
 .top-content {
-    /*border: 1px solid black;*/
-    height: 100%;
-    padding: 10px;
+  /*border: 1px solid black;*/
+  height: 100%;
+  padding: 10px;
 }
 
 #top-logo {
     
 }
 #top-logo img {
-    margin: 0 auto;
-    margin-top: 65px;
-    vertical-align: center;
-    border-radius: 30%;
-    padding: 10px;
+  margin: 0 auto;
+  margin-top: 65px;
+  vertical-align: center;
+  border-radius: 30%;
+  padding: 10px;
 }
 #top-text {
 
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 #top-text p {
-    color: white;
-    font-size: 1.8em;
-    padding: 10px;
+  color: white;
+  font-size: 1.8em;
+  padding: 10px;
 }
 
 .top-button {
-    padding: 30px;
-    margin: 10px; 
-    font-size: 1.6em;
-    color: white;
-    border: none;
+  padding: 30px;
+  margin: 10px; 
+  font-size: 1.6em;
+  color: white;
+  border: none;
     
 }
 
 #quote-button {
-    background-color: hsla(83, 55%, 60%, 0.8);
+  background-color: hsla(83, 55%, 60%, 0.8);
 }
 
 #contact-button {
-    background-color: hsla(13, 87%, 62%, 0.8);
-    padding-left: 50px;
-    padding-right: 50px;
+  background-color: hsla(13, 87%, 62%, 0.8);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .affix {
     position: fixed; 
-    top: 0px;
-    width: 100%;
-    z-index: 1;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 /*.affix-top {
     position: static;
 }*/
 
+nav {
+  background-color: hsla(22, 11%, 16%, 1);
+}
+.navbar-default {
+
+}
 .navbar {
-  min-height: 70px;
-  padding-top: 10px;
+  /*min-height: 70px;*/
+  /*padding-top: 10px;*/
   margin-bottom: 0px;
-    border-radius: 0px;
+  border-radius: 0px;
+
 
 }
 
@@ -188,10 +195,15 @@ a:focus {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
+.navbar-header {
+  background-color: hsla(22, 11%, 16%, 1);
 
+}
+
+}
 .navbar-header .navbar-brand {
   color: hsla(22, 11%, 85%, 1);
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -211,7 +223,7 @@ a:focus {
 }
 
 .navbar-default {
-  background-color: rgba(52, 52, 54,1);
+  /*background-color: rgba(52, 52, 54,1);*/ 
   border-color: transparent;
 }
 
@@ -312,65 +324,65 @@ a:focus {
 }
 
 #focus h1 {
-    color: rgba(52, 52, 54,1.0);
+  color: rgba(52, 52, 54,1.0);
   font-weight: 800;
-    font-size: 4em;
-    padding-top: 40px;
+  font-size: 4em;
+  padding-top: 40px;
   
 }
 
 .focus-section {
-    /*border: 1px solid black;*/
-    /*height: auto;
-    width: 100%;*/
-    background-color: hsla(27, 13%, 87%, .9);
-    display: block;
-    height: 710px;
-    border-bottom: 8px solid darkgrey;
+  /*border: 1px solid black;*/
+  /*height: auto;
+  width: 100%;*/
+  background-color: hsla(27, 13%, 87%, .9);
+  display: block;
+  height: 710px;
+  border-bottom: 8px solid darkgrey;
 
 }
 .focus-cols {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .border-right {
-    border-right: 2px solid black;
+  border-right: 2px solid black;
 }
 .focus-section ul li {
-    list-style: none;
-    text-align: left;
-    padding-left: 10px;
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
 }
 .focus-section ul li:hover {
-    color:hsla(83, 55%, 60%, 1.0);
-    cursor: crosshair;
-    text-decoration: underline;
+  color:hsla(83, 55%, 60%, 1.0);
+  cursor: crosshair;
+  text-decoration: underline;
 }
 .focus-nav {
-    font-size: 1.5em;
-    width: 70%;
+  font-size: 1.5em;
+  width: 70%;
 }
 #focus .img-responsive {
   margin: 0 auto;
 }
 #bud-cola {
-    border: 10px solid white;
-    border-radius: 5px;
+  border: 10px solid white;
+  border-radius: 5px;
 }
 
 .focus-text {
-    text-align: left;
+  text-align: left;
 }
 
 .focus-text h4 {
-    color: hsla(13, 87%, 62%, 1.0);
-    text-decoration: underline;
+  color: hsla(13, 87%, 62%, 1.0);
+  text-decoration: underline;
 }
 .focus-text h2 {
-    color: hsla(13, 87%, 62%, 1.0);
+  color: hsla(13, 87%, 62%, 1.0);
 }
 .focus-text img {
-    height: 50%;
-    width: 50%;
+  height: 50%;
+  width: 50%;
 }
 
 
@@ -379,30 +391,30 @@ a:focus {
 /* Services Section */
 
 #service {
-    background-color: grey;
+  background-color: grey;
   margin: 0 auto;
   /*margin-bottom: 0px;*/
 }
 
 .service-text {
-    text-align: left;
-    border:1px solid black;
-    margin: 0 auto;
-    /*margin-left: 20px;*/
-    color: violet;
-    padding: 40px;
-    clear: both;
+  text-align: left;
+  border:1px solid black;
+  margin: 0 auto;
+  /*margin-left: 20px;*/
+  color: violet;
+  padding: 40px;
+  clear: both;
 
 }
 
 .service-text p {
-    color: violet;
+  color: violet;
 }
 
 .service-image {
-    margin: 0 auto;
-    border: 1px solid black;
-    background-repeat: no-repeat;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-repeat: no-repeat;
     /*margin-top: 50px;*/
   /*  margin-right: 10px;*/
 }
@@ -414,28 +426,37 @@ a:focus {
 
 /* Quote Section */
 .quote-block {
-    background-color: hsla(27, 13%, 87%, 1);
-    height: 300px;
-    border-top: 8px solid darkgrey;
-    border-bottom: 8px solid darkgrey;
-    margin: 0 auto;
-    text-align: center;
+  background-color: hsla(27, 13%, 87%, 1);
+  height: 300px;
+  border-top: 8px solid darkgrey;
+  border-bottom: 8px solid darkgrey;
+  margin: 0 auto;
+  text-align: center;
+}
+#quote-block {
+  background-image: url("images/bigquotes.png");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 .text-block p {
-    text-align: left;
+  text-align: left;
 }
 
 
 /* About Us Section */
 .about-us {
-    background-color: black;
-    height: 200px;
+  background-color: black;
+  height: 200px;
 }
 .about-us-header {
-    background-color: orange;
-    height: 100px;
-    text-align: center;
-    vertical-align: center;
+  background-color: orange;
+  height: 100px;
+  text-align: left;
+  vertical-align: center;
+  text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+  color: orange;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 
@@ -494,7 +515,7 @@ a:focus {
   margin-bottom: 15px;
 }
 
-csmall {
+.csmall {
   font-size: 12px;
   color: #b3b3b3;
 }
@@ -519,15 +540,15 @@ csmall {
   min-height: 400px;
   width: 100%;
   
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Blog Page */
