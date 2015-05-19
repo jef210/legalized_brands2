@@ -1,3 +1,8 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+  console.log( "ready!" );
+
+   $(window).scroll(function() {
+  // console.log( "Firing!" );
+  });
+ 
 });
